@@ -9,4 +9,3 @@ TODO:
 - bash dotfiles (alias, prompt, completion, bashrc)
 - set git properly (git user.name & user.email)
 - generate ssh key
-- 
