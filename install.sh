@@ -2,7 +2,8 @@
 cd "$(dirname "${BASH_SOURCE}")"
 git pull origin master
 function doIt() {
-        rsync --exclude ".git/" --exclude ".DS_Store" --exclude "bootstrap.sh" \
+        # http://mpov.timmorgan.org/use-rsync-instead-of-cp/
+        rsync --exclude ".git/" --exclude ".DS_Store" --exclude "install.sh" \
                 --exclude "README.md" --exclude "LICENSE-MIT.txt" -av --no-perms . ~
         source ~/.bash_profile
 }
