@@ -22,6 +22,9 @@ else # OS X `ls`
     colorflag="-G"
 fi
 
+# Recursively create folders
+alias mkdir='mkdir -pv'
+
 # List all files colorized in long format
 alias l="ls -lF ${colorflag}"
 
