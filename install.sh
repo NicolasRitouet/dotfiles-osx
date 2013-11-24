@@ -17,9 +17,3 @@ else
         fi
 fi
 unset doIt
-
-
-# zx-specific
-echo "Setting git config"
-git config --global user.name "Nicolas Ritouet"
-git config --global user.email "nicolas.ritouet@zanox.com"
