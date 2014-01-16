@@ -3,6 +3,6 @@
 clone and run install.sh
 
 
-TODO:
+<i class="icon-file"></i> TODO:
 - set git properly (git user.name & user.email)
 - generate ssh key
