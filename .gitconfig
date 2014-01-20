@@ -9,8 +9,6 @@
 	last = log --name-status HEAD^..HEAD
 	aamend = commit --amend -C HEAD
 	st = status
-
-	
 [user]
 	name = Nicolas Ritouet
 	email = nicolas.ritouet@zanox.com
