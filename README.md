@@ -15,3 +15,4 @@ cd dotfiles-osx
 
 ## TODO:
 - merge with dotfiles
+- include this: https://github.com/mathiasbynens/dotfiles/blob/master/.osx ?
