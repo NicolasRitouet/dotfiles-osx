@@ -7,8 +7,10 @@ clone and run install.sh
 ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 brew install git
 brew install htop
-git clone git@github.com:NicolasRitouet/dotfiles-osx.git
 brew install node
+git clone git@github.com:NicolasRitouet/dotfiles-osx.git
+cd dotfiles-osx
+./install.sh
 ````
 
 
