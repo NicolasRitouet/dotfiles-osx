@@ -1,6 +1,5 @@
 # My own mac OS X dotfiles  
 
-clone and run install.sh
 
 ## Installation
 ```bash
