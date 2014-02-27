@@ -3,7 +3,7 @@
 [alias]
 	cp = cherry-pick
 	hist = log --oneline --graph --decorate --all
-	yesterday = log --since '1 day ago' --oneline --author nicolas.ritouet@zanox.com
+	yesterday = log --since '1 day ago' --oneline --author nicolas@ritouet.com
 	ac = !git add -A && git commit -m
 	co = checkout
 	last = log --name-status HEAD^..HEAD
@@ -11,7 +11,7 @@
 	st = status
 [user]
 	name = Nicolas Ritouet
-	email = nicolas.ritouet@zanox.com
+	email = nicolas@ritouet.com
 [core]
 	excludesfile = /Users/nicolas.ritouet/.gitignore_global
 [difftool "sourcetree"]
