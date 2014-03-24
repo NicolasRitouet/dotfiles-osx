@@ -55,7 +55,7 @@ alias timer='echo "Timer started. Stop with Ctrl-D." && date && time cat && date
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl "
 
 # Atom.io
-atom() { /Applications/Atom.app/Contents/MacOS/Atom "$@" > /dev/null 2>&1 & }
+atom() { screen -d -m /Applications/Atom.app/Contents/MacOS/Atom "$@" > /dev/null 2>&1 & }
 alias atom="atom"
 
 # Get OS X Software Updates, and update installed Ruby gems, Homebrew, npm, and their installed packages
