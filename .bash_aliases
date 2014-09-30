@@ -151,3 +151,11 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec $SHELL -l"
+
+
+# Http server
+alias servethis="python -c 'import SimpleHTTPServer; SimpleHTTPServer.test()    '"
+
+upload() { curl --upload-file ./$1 https://transfer.sh/$1; }
+alias upload=upload
+
