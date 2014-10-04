@@ -1,9 +1,14 @@
+# !!! Deprecated !!!
+## This repo has be merged with my main dotfiles to have only one, don't use it anymore.
+
+GO TO https://github.com/nicolasritouet/dotfiles
+
 # mac OS X dotfiles  
 
 
 ## Installation
 ```bash
-ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew install git
 brew install htop
 brew install node
